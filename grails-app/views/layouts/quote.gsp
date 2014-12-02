@@ -9,14 +9,14 @@
 <html>
 <head>
     <title>QOTD &raquo; <g:layoutTitle/></title>
-    <g:external dir="css" file="snazzy.css"/>
+    <asset:stylesheet href="snazzy.css"/>
     <g:layoutHead/>
 </head>
 
 <body>
     <div id="header">
-        <g:img dir="images" file="logo.png" alt="logo" />
+        <asset:image src="logo.png" />
     </div>
-
+    <g:layoutBody/>
 </body>
 </html>
